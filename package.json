@@ -1,0 +1,33 @@
+{
+  "name": "solid-start-project-setup",
+  "scripts": {
+    "dev": "solid-start dev",
+    "build": "solid-start build",
+    "start": "solid-start start"
+  },
+  "type": "module",
+  "main": "./dist/index.js",
+  "devDependencies": {
+    "solid-start-node": "0.2.7",
+    "typescript": "4.9.4",
+    "vite": "4.0.1"
+  },
+  "dependencies": {
+    "@solidjs/meta": "0.28.2",
+    "@solidjs/router": "0.5.1",
+    "solid-js": "1.6.5",
+    "solid-start": "0.2.7",
+    "undici": "5.14.0"
+  },
+  "packageManager": "pnpm@7.18.2",
+  "volta": {
+    "node": "18.12.1"
+  },
+  "pnpm": {
+    "peerDependencyRules": {
+      "allowedVersions": {
+        "vite": "4"
+      }
+    }
+  }
+}

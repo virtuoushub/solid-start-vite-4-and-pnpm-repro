@@ -1,0 +1,12 @@
+# (see https://www.gitpod.io/docs/config-gitpod-file)
+
+tasks:
+  - before: corepack enable && corepack prepare && nvm install && nvm use
+    init: pnpm install && pnpm run build
+    command: pnpm run start
+
+ports:
+  - port: 3000
+    onOpen: open-preview
+    name: SolidStart Hackernews Example
+    description: SolidStart Hackernews Example Preview
