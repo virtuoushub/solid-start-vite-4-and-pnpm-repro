@@ -10,7 +10,7 @@
   "devDependencies": {
     "solid-start-node": "0.2.7",
     "typescript": "4.9.4",
-    "vite": "4.0.1"
+    "vite": "git://github.com/csr632/vite.git#feat/fix-resolve-optimized"
   },
   "dependencies": {
     "@solidjs/meta": "0.28.2",
@@ -26,7 +26,7 @@
   "pnpm": {
     "peerDependencyRules": {
       "allowedVersions": {
-        "vite": "4"
+        "vite": "0"
       }
     }
   }
